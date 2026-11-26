@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# WorkBuddy 本地项目数据（不纳入版本库）
+.workbuddy/
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 环境、密钥与凭据（切勿提交）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+id_rsa
+id_ed25519
+credentials*
+secrets.*
+
+# 常见依赖与构建产物
+node_modules/
+dist/
+build/
+*.log
+__pycache__/
+*.pyc
+venv/
+.venv/
